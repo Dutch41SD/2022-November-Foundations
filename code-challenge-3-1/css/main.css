@@ -1,6 +1,6 @@
 html{
 
-
+  
 
 }
 
@@ -10,9 +10,9 @@ Body{
 
 }
 
-#kitten{
+#main{
 
-  background-image: url("../img/kitten.jpg");
+  background-image: url("../img/tile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
