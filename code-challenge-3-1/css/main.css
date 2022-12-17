@@ -1,6 +1,7 @@
 html{
 
-  
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: x-large;
 
 }
 
@@ -21,3 +22,4 @@ Body{
   height: 100vh;
 
 }
+
