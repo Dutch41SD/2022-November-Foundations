@@ -1,6 +1,6 @@
 html {
   font-family: 'Libra Franklin', sans-serif;
-  font-size: 24px;
+  font-size: x-large;
 }
 
 body {
@@ -34,8 +34,21 @@ a {
   width: 100%;
   height: 100vh;
   text-align: center;
+  box-sizing: border-box;
+  padding-top: 4rem;
 }
 
 .logo {
   width: 9ch;
 }
+
+.title, .logo {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 2em;
+}
+
+.tagline {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1em;
+}
+
