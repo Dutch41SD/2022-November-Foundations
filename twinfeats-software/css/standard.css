@@ -1,11 +1,7 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
 
 html {
-  font-family: 'Libra Franklin', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -13,11 +9,10 @@ body {
 }
 
 nav {
-  background-color: white;
+  background-color: black;
   display: flex;
   justify-content: space-around;
   padding: 0.25em;
-  font-family: 'josefin slab', serif;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,7 +21,7 @@ nav {
 }
 
 a {
-  color: black;
+  color: #f0f0f0;
   text-decoration: none;
 }
 
@@ -60,11 +55,11 @@ article::before {
 }
 
 #home {
-  background-image: url("../img/Background.jpg");
+  background-image: url("../images/background.jpg");
 }
 
 #about::before {
-  background-image: url("../img/code-1839406_1920.jpg");
+  background-image: url("../images/background.jpg");
 }
 
 #services {
